@@ -1,0 +1,21 @@
+{
+  "name": "hoodietest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "hoodie"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hoodie": "^28.2.6"
+  },
+  "hoodie": {
+    "data": ".data",
+    "loglevel": "info",
+    "address": "0.0.0.0"
+  }
+}
