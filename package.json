@@ -16,6 +16,6 @@
   "hoodie": {
     "data": ".data",
     "loglevel": "info",
-    "port": 5001
+    "port": 5000
   }
 }
