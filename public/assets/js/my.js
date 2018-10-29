@@ -151,17 +151,17 @@ $(document).ready(function(){
     hoodie.store.on('pull', renderItem);
     renderItem();
 
-    // if ("serviceWorker" in navigator) {
-    //     navigator.serviceWorker
-    //     .register("hworker.js")
-    //     .then(console.log)
-    //     .catch(console.error);
-    // }
-
     if ("serviceWorker" in navigator) {
         navigator.serviceWorker
         .register("hworker.js")
-        .then(alert("support service worker"))
+        .then(console.log)
         .catch(console.error);
     }
+
+    // if ("serviceWorker" in navigator) {
+    //     navigator.serviceWorker
+    //     .register("hworker.js")
+    //     .then(alert("support service worker"))
+    //     .catch(console.error);
+    // }
 });

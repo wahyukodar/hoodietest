@@ -7,7 +7,7 @@ const assetToCache = [
     "assets/vendor/jquery/js/popper.js",
     "assets/vendor/bootstrap/js/bootstrap.min.js",
     "assets/js/my.js",
-    "/hoodie/client.js"
+    "../hoodie/client.js"
 ];
 self.addEventListener("install", function(event) {
     event.waitUntil(

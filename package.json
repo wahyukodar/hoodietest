@@ -20,6 +20,6 @@
     "data": ".data",
     "loglevel": "info",
     "address": "0.0.0.0",
-    "port": null
+    "port": 8080
   }
 }
